@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by zhangxiaang on 15/10/13.
+ * Created by tonychiang on 15/10/13.
  */
 public class VolleyHelper {
     private RequestQueue requestQueue;

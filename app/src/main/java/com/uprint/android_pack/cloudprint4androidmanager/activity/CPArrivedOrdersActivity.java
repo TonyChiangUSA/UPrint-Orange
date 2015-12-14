@@ -26,7 +26,7 @@ import java.lang.ref.WeakReference;
 import java.util.HashMap;
 
 /**
- * Created by zhangxiaang on 15/11/15.
+ * Created by tonychiang on 15/11/15.
  */
 public class CPArrivedOrdersActivity extends CPBaseActivity implements SwipeRefreshLayout.OnRefreshListener {
     private TextView title;

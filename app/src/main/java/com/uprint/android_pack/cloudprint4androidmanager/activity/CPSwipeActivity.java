@@ -22,7 +22,7 @@ import com.uprint.android_pack.cloudprint4androidmanager.CPBaseActivity;
 import com.uprint.android_pack.cloudprint4androidmanager.R;
 
 /**
- * Created by zhangxiaang on 15/11/8.
+ * Created by tonychiang on 15/11/8.
  */
 public class CPSwipeActivity extends CPBaseActivity {
 

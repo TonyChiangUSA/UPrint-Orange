@@ -30,7 +30,7 @@ import com.uprint.android_pack.cloudprint4androidmanager.widgets.EmptyRecyclerVi
 import java.util.HashMap;
 
 /**
- * Created by zhangxiaang on 15/10/7.
+ * Created by tonychiang on 15/10/7.
  * TODO data save before recycled
  * 检查下adapter 的数据顺序吧
  */

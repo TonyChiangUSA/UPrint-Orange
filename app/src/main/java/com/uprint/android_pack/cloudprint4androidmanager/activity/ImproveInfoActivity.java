@@ -48,7 +48,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
- * Created by zhangxiaang on 15/10/16.
+ * Created by tonychiang on 15/10/16.
  */
 public class ImproveInfoActivity extends CPBaseActivity {
     public static final String TAG = "ImproveInfoActivity";

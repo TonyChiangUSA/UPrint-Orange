@@ -22,7 +22,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
- * Created by zhangxiaang on 15/10/20.
+ * Created by tonychiang on 15/10/20.
  * todo 在数据获取到之前记得设置emptyView
  * 各个属性都更新一下
  */

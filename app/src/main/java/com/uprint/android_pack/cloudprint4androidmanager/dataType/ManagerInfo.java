@@ -3,7 +3,7 @@ package com.uprint.android_pack.cloudprint4androidmanager.dataType;
 import java.util.List;
 
 /**
- * Created by zhangxiaang on 15/10/13.
+ * Created by tonychiang on 15/10/13.
  */
 public class ManagerInfo {
 

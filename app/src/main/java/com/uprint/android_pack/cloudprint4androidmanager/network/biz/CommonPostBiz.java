@@ -10,7 +10,7 @@ import com.uprint.android_pack.cloudprint4androidmanager.network.ICallBack;
 import java.util.Map;
 
 /**
- * Created by zhangxiaang on 15/10/25.
+ * Created by tonychiang on 15/10/25.
  */
 public class CommonPostBiz extends CommonHandler {
 

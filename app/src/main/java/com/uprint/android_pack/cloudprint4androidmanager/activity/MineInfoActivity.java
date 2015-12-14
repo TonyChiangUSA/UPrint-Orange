@@ -43,7 +43,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
- * Created by zhangxiaang on 15/10/13.
+ * Created by tonychiang on 15/10/13.
  * todo the roles group has some problem can't react for the role changed
  */
 public class MineInfoActivity extends CPBaseActivity {

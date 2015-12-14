@@ -24,7 +24,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by zhangxiaang on 15/10/8.
+ * Created by tonychiang on 15/10/8.
  */
 public class CPRegisteActivity extends CPBaseActivity {
     public static final String TAG = "CPRegisteActivity";

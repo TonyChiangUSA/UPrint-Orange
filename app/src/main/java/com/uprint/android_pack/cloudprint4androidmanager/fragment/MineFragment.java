@@ -34,7 +34,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by zhangxiaang on 15/10/7.
+ * Created by tonychiang on 15/10/7.
  */
 public class MineFragment extends Fragment {
 

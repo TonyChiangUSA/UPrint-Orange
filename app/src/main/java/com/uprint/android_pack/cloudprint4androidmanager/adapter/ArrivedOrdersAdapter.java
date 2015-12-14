@@ -20,7 +20,7 @@ import com.uprint.android_pack.cloudprint4androidmanager.widgets.CPRatingBar;
 import java.lang.ref.WeakReference;
 
 /**
- * Created by zhangxiaang on 15/11/15.
+ * Created by tonychiang on 15/11/15.
  * for show the arrived orders
  */
 public class ArrivedOrdersAdapter extends RecyclerView.Adapter<ArrivedOrdersAdapter.OrderViewHolder> {

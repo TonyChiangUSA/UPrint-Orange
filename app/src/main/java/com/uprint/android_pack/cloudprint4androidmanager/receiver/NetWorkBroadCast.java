@@ -10,7 +10,7 @@ import android.widget.Toast;
 import com.uprint.android_pack.cloudprint4androidmanager.utils.EmptyViewUtil;
 
 /**
- * Created by zhangxiaang on 15/11/15.
+ * Created by tonychiang on 15/11/15.
  */
 public class NetWorkBroadCast extends BroadcastReceiver {
 

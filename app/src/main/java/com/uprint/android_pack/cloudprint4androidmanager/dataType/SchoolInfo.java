@@ -3,7 +3,7 @@ package com.uprint.android_pack.cloudprint4androidmanager.dataType;
 import java.util.ArrayList;
 
 /**
- * Created by zhangxiaang on 15/10/28.
+ * Created by tonychiang on 15/10/28.
  */
 public class SchoolInfo {
     /**

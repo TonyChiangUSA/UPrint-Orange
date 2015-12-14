@@ -1,7 +1,7 @@
 package com.uprint.android_pack.cloudprint4androidmanager.dataType;
 
 /**
- * Created by zhangxiaang on 15/11/13.
+ * Created by tonychiang on 15/11/13.
  */
 public class ComplainsInfo {
 

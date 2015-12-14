@@ -14,7 +14,7 @@ import com.uprint.android_pack.cloudprint4androidmanager.dataType.SchoolInfo;
 import java.util.ArrayList;
 
 /**
- * Created by zhangxiaang on 15/11/3.
+ * Created by tonychiang on 15/11/3.
  */
 public class SimpleBuildingAdapter extends BaseAdapter {
     private Context context;

@@ -11,7 +11,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.uprint.android_pack.cloudprint4androidmanager.R;
 
 /**
- * Created by zhangxiaang on 15/10/20.
+ * Created by tonychiang on 15/10/20.
  */
 public class TaskListAdapter extends RecyclerView.Adapter<TaskListAdapter.TaskItemHolder> {
     private Context context;
