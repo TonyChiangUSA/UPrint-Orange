@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/pc_toolbar" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/accountText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:hint="@string/account"
+        android:inputType="phone"
+        app:met_clearButton="true"
+        app:met_floatingLabel="normal"
+        app:met_primaryColor="#00BCD4"
+        app:met_textColor="#000" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/passwordText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accountText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:hint="@string/paswrd"
+        android:password="true"
+        app:met_clearButton="true"
+        app:met_floatingLabel="normal"
+        app:met_primaryColor="#00BCD4"
+        app:met_textColor="#000" />
+
+    <TextView
+        android:id="@+id/forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/passwordText"
+        android:layout_below="@id/passwordText"
+        android:layout_marginTop="12dp"
+        android:onClick="LoginRoute"
+        android:text="忘记密码"
+        android:textColor="#00BCD4"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgetPassword"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal">
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/regisBtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:onClick="LoginRoute"
+            android:text="@string/registe"
+            custom:pb_colorNormal="@android:color/holo_blue_light"
+            custom:pb_colorPressed="@android:color/holo_blue_dark" />
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/logInBtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_toRightOf="@id/regisBtn"
+            android:onClick="LoginRoute"
+            android:text="@string/login"
+            custom:pb_colorNormal="@android:color/holo_blue_light"
+            custom:pb_colorPressed="@android:color/holo_blue_dark" />
+
+
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/Users/tonychiang/CloudPrint4AndroidManager/app/src/main/res/layout/loggedlayout.xml -->

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/pc_toolbar" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/newAccounts"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="@string/account"
+        android:inputType="phone"
+        app:met_clearButton="true"
+        app:met_floatingLabel="normal"
+        app:met_primaryColor="#00BCD4"
+        app:met_textColor="#000" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/oauthCode"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/newAccounts"
+        android:layout_alignStart="@id/newAccounts"
+        android:layout_below="@id/newAccounts"
+        android:hint="@string/oauthCode"
+        android:inputType="number"
+        app:met_clearButton="true"
+        app:met_floatingLabel="normal"
+        app:met_primaryColor="#00BCD4"
+        app:met_textColor="#000" />
+
+    <com.dd.processbutton.FlatButton
+        android:id="@+id/oauthBtn"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/oauthCode"
+        android:layout_alignRight="@id/newAccounts"
+        android:onClick="route"
+        android:text="获取验证码"
+        custom:pb_colorNormal="@android:color/holo_blue_light"
+        custom:pb_colorPressed="@android:color/holo_blue_dark" />
+
+    <com.dd.processbutton.FlatButton
+        android:id="@+id/regisBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oauthCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="route"
+        android:text="@string/registe"
+        custom:pb_colorNormal="@android:color/holo_blue_light"
+        custom:pb_colorPressed="@android:color/holo_blue_dark" />
+
+</RelativeLayout>
+<!-- From: file:/Users/tonychiang/CloudPrint4AndroidManager/app/src/main/res/layout/cp_registe.xml -->
