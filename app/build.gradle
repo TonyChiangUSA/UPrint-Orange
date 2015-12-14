@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.uprint.android_pack.cloudprint4androidmanager"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        debug {
+
+        }
+        release {
+            storeFile file("/Users/zhangxiaang/cloudprint.keystore")
+            storePassword "zhangxiaang0024"
+            keyAlias "Sharon"
+            keyPassword "zhangxiaang0024"
+        }
+    }
+
+
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.debug
+        }
+        release {
+            //allow to shrink my app
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.release
+//            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFile '/Users/zhangxiaang/AndroidStudioProjects/CloudPrint4AndroidManager/app/proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        //for Butter Knife
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+    lintOptions {
+        abortOnError false
+        //for butterKnife
+        disable 'InvalidPackage'
+    }
+
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    //for event transform
+    compile 'de.greenrobot:eventbus:2.4.0'
+    //for network
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    //the editTextView
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile 'com.github.dmytrodanylyk.android-process-button:library:1.0.4'
+    //RecyclerView+CardView
+    compile 'com.android.support:recyclerview-v7:23.0.+'
+    compile 'com.android.support:cardview-v7:23.0.+'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    //avoscloud-sdk 为 LeanCloud基础包
+    compile 'cn.leancloud.android:avoscloud-sdk:v3.2'
+    //avoscloud-push 与 Java-WebSocket 为推送与IM需要的包
+    compile 'cn.leancloud.android:avoscloud-push:v3.2@aar'
+    compile 'cn.leancloud.android:Java-WebSocket:1.2.0-leancloud'
+    //avoscloud-statistics 为 LeanCloud 统计包
+    compile 'cn.leancloud.android:avoscloud-statistics:v3.2@aar'
+}

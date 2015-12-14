@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bao="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center_vertical">
+
+        <com.uprint.android_pack.cloudprint4androidmanager.widgets.CPIconFontTextView
+            android:id="@+id/icon_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/user2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/icon_user"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/icon_user"
+            android:text="江主席" />
+
+        <RelativeLayout
+            android:id="@+id/rating_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical">
+
+            <com.uprint.android_pack.cloudprint4androidmanager.widgets.CPRatingBar
+                android:id="@+id/ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                bao:starCount="5"
+                bao:starEmpty="@drawable/ic_love_empty"
+                bao:starFill="@drawable/ic_love_fill"
+                bao:starImageSize="28dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/ratingbar"
+                android:text="评分: "
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/orders_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/rating_layout"
+            android:layout_marginTop="8dp"
+            android:text="订单类型:" />
+
+        <com.uprint.android_pack.cloudprint4androidmanager.widgets.CPIconFontTextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon_user"
+            android:layout_marginTop="8dp"
+            android:text="@string/phone"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/user_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/phone"
+            android:layout_below="@id/user2_name"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/phone"
+            android:gravity="bottom"
+            android:onClick="call_user"
+            android:text="13025495405" />
+
+        <com.uprint.android_pack.cloudprint4androidmanager.widgets.CPIconFontTextView
+            android:id="@+id/icon_buidling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone"
+            android:layout_marginTop="8dp"
+            android:text="@string/building_name"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/buildingName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/icon_buidling"
+            android:layout_below="@id/user_phone"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/icon_buidling"
+            android:gravity="bottom"
+            android:text="凌霄斋502" />
+
+
+        <com.uprint.android_pack.cloudprint4androidmanager.widgets.CPIconFontTextView
+            android:id="@+id/alertime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/icon_buidling"
+            android:layout_marginTop="8dp"
+            android:text="@string/alerttime"
+            android:textColor="@color/red_error"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/command_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/alertime"
+            android:layout_below="@id/icon_buidling"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/alertime"
+            android:gravity="bottom"
+            android:text="11月7日  14:20"
+            android:textColor="@color/red_error" />
+
+        <TextView
+            android:id="@+id/totalFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/command_time"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/icon_buidling"
+            android:text="总价:" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
