@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/pc_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/fileinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/textinfo"
+                android:textColor="@color/theme_color_primary_text"
+                android:textSize="22sp" />
+
+            <com.uprint.android_pack.cloudprint4androidmanager.widgets.EmptyRecyclerView
+                android:id="@+id/tasksList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fileinfo" />
+
+            <TextView
+                android:id="@+id/feeinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tasksList"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/theme_color_primary_text"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/order_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/feeinfo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/order_msg"
+                android:textColor="@color/theme_color_primary_text"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignBottom="@id/order_msg"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@id/order_msg"
+                android:background="@color/theme_color_primary_text" />
+
+            <ImageView
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignBottom="@id/order_msg"
+                android:layout_marginBottom="8dp"
+                android:layout_toRightOf="@id/order_msg"
+                android:background="@color/theme_color_primary_text" />
+
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/order_msg"
+                android:layout_marginTop="12dp"
+                android:text="@string/default_comment"
+                android:textColor="@color/theme_color_second_text"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

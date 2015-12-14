@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--for material design fontSize chinese is larger than english-->
+    <dimen name="material_text_button">15sp</dimen>
+    <dimen name="material_text_menu">15sp</dimen>
+    <dimen name="material_text_title">21sp</dimen>
+    <dimen name="material_text_subtitle">17sp</dimen>
+    <dimen name="material_text_headline">25sp</dimen>
+
+</resources>

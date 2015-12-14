@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.uprint.android_pack.cloudprint4androidmanager.widgets.CPIconFontTextView
+        android:id="@+id/empty_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dingdan"
+        android:textColor="#88000000"
+        android:textSize="160sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empty_order"
+        android:layout_marginTop="18dp"
+        android:text="您的历史订单为空"
+        android:textSize="32sp" />
+</RelativeLayout>

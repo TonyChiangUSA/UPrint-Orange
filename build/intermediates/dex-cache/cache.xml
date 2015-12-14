@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/classes-fb9f039fa50a2e1352a2a77e9813e89d6d5a3f8b.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/exploded-aar/cn.leancloud.android/avoscloud-statistics/v3.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a6b3346113d8acf47486a00f0c6da5b1c36855e6">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/classes-2932ff0f3162157e6e9e5cd264b8c841d247ec04.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.1.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/classes-c52704c84c31fd79d508139bdfd34bcbd5819618.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/.gradle/caches/modules-2/files-2.1/cn.leancloud.android/avoscloud-sdk/v3.2/88e769cb6fafa1d9c201a9b9574c2142a695d6b/avoscloud-sdk-v3.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="088e769cb6fafa1d9c201a9b9574c2142a695d6b">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/avoscloud-sdk-v3.2-8d1581ac835f32dd0a28923851b24d0e4d86dbf8.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-3efd634be53d6993c1182074f5fe7af29f6a85fc.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-062eddf5c179f45e86f955ada124493af1f1f6dc.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.6/a845a88238be0b5be9d238652c1bc0605ef91f52/android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6-fae2d2d88d1db4c7e06ff4a9528aef652daa55eb.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/classes-982bc36264eb3f297fb69c0497bceaa5e8f6d5eb.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-422402c4747c5ed4a93fb5e64db4d54739978c6b.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/.gradle/caches/modules-2/files-2.1/cn.leancloud.android/fastjson/1.1.37-leancloud/f0eb5dd7cf5d5e186a49179c2e956e5a34c71956/fastjson-1.1.37-leancloud.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f0eb5dd7cf5d5e186a49179c2e956e5a34c71956">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/fastjson-1.1.37-leancloud-f956bef14dcbababbdc991fedd9b4b5338b8ce88.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/library-2.4.0-7b2ccd246e6e283b08aadedf89608522ab6c8bd9.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/library-1.0.19-bc8763dd1bcf85ce0a85ce9192fda592fb52a439.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/exploded-aar/com.github.dmytrodanylyk.android-process-button/library/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="88ccdbf844995d5c9c845e087068d27588b2d026">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/classes-aaa42f21449718dace5341ffbf8164b60b951322.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/classes-1441655567ab4406f9242b70233827c6b636affe.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/classes-fba0f147e40004b27f025991401e7d34cae8dc9e.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.2.4/dba4d4d224e2ca872af5be8d2992777583145478/httpmime-4.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/httpmime-4.2.4-bfdf0a529b709c47fbdad6c0fef3750a97f58919.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-9b2403e42677ab8268220fceb339beda8e23a628.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/.gradle/caches/modules-2/files-2.1/cn.leancloud.android/Java-WebSocket/1.2.0-leancloud/221fb6750fcf164a85a98bbbafe0879e18868562/Java-WebSocket-1.2.0-leancloud.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="221fb6750fcf164a85a98bbbafe0879e18868562">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/Java-WebSocket-1.2.0-leancloud-bb814ca91cd449136ff8be97d20ac41965e4cfd4.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/exploded-aar/cn.leancloud.android/avoscloud-push/v3.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3feaf538134be0bc79f685bead17fd23af922c04">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/classes-2fd87d8ea1f89480a496154cbf07834166826276.jar" />
+    </item>
+    <item
+        jar="/Users/tonychiang/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.4/3b7f38df6de5dd8b500e602ae8c2dd5ee446f883/httpcore-4.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="/Users/tonychiang/CloudPrint4AndroidManager/app/build/intermediates/pre-dexed/debug/httpcore-4.2.4-daeb0539be9327f7d66327a57225e4e2ff273c08.jar" />
+    </item>
+
+</items>

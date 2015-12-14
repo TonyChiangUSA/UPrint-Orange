@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <RelativeLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <com.uprint.android_pack.cloudprint4androidmanager.widgets.CPIconFontTextView
+                android:id="@+id/icon_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/user2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/icon_user"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/icon_user"
+                android:text="江主席" />
+
+            <com.uprint.android_pack.cloudprint4androidmanager.widgets.CPIconFontTextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/icon_user"
+                android:layout_marginTop="8dp"
+                android:text="@string/phone"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/user_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/phone"
+                android:layout_below="@id/user2_name"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/phone"
+                android:gravity="bottom"
+                android:onClick="call_user"
+                android:text="13025495405" />
+
+            <com.uprint.android_pack.cloudprint4androidmanager.widgets.CPIconFontTextView
+                android:id="@+id/icon_buidling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone"
+                android:layout_marginTop="8dp"
+                android:text="@string/building_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/buildingName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/icon_buidling"
+                android:layout_below="@id/user_phone"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/icon_buidling"
+                android:gravity="bottom"
+                android:text="凌霄斋502" />
+
+
+            <TextView
+                android:id="@+id/orders_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/order_type" />
+
+            <TextView
+                android:id="@+id/print_shop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/orders_type"
+                android:layout_marginTop="8dp"
+                android:text="打印店名称" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/line2"
+            android:layout_marginTop="8dp"
+            android:background="@color/black" />
+
+        <RelativeLayout
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider2"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/upload_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_time"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_upload_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/upload_time"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/alertime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upload_time"
+                android:layout_marginTop="4dp"
+                android:text="@string/deliver_time"
+                android:textColor="@color/holo_red_light"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/command_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upload_time"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@id/alertime"
+                android:textColor="@color/holo_red_light"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/finish_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:text="确认送达"
+                android:textColor="@color/theme_color_accent"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
