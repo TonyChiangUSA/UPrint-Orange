@@ -1,7 +1,7 @@
 package com.uprint.android_pack.cloudprint4androidmanager.network;
 
 /**
- * Created by zhangxiaang on 15/10/13.
+ * Created by tonychiang on 15/10/13.
  */
 public class NetValue {
     // for config the url

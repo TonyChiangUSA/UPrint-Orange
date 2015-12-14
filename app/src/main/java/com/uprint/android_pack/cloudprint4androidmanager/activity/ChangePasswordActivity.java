@@ -24,7 +24,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
- * Created by zhangxiaang on 15/10/28.
+ * Created by tonychiang on 15/10/28.
  */
 public class ChangePasswordActivity extends CPBaseActivity {
     private TextView title;

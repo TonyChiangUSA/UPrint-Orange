@@ -22,7 +22,7 @@ import java.lang.ref.WeakReference;
 import java.util.HashMap;
 
 /**
- * Created by zhangxiaang on 15/10/13.
+ * Created by tonychiang on 15/10/13.
  */
 public class OrdersListAdapter extends RecyclerView.Adapter<OrdersListAdapter.OrderViewHolder> {
 

@@ -33,7 +33,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
- * Created by zhangxiaang on 15/10/7.
+ * Created by tonychiang on 15/10/7.
  */
 public class CPLoginActivity extends CPBaseActivity {
     @Bind(R.id.accountText)
